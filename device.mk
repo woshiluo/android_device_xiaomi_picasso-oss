@@ -43,6 +43,10 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_BOARD_PLATFORM := lito
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# KProfiles
+# PRODUCT_PACKAGES += \
+#     KProfiles
+
 # Shim
 PRODUCT_PACKAGES += \
     libwatermark_shim
