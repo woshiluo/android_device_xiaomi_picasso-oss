@@ -41,3 +41,7 @@ CONFIG_IEEE80211AX := true
 
 # Inherit from the proprietary version
 include vendor/xiaomi/picasso/BoardConfigVendor.mk
+
+# VINTF
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+    $(COMMON_PATH)/framework_compatibility_matrix.xml
